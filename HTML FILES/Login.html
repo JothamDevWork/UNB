@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/IMAGES/UNION.jpg"
+    <link rel="icon" href="/IMAGES/UNION.jpg">
+    <link rel="stylesheet" href="/STYLE FILES/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
 <body>
@@ -11,25 +13,55 @@
     <h1>UNION BANK LOGIN</h1>
   </header>
    <hr>
-  <main>
-    <form>
+
+<main>
+  <form id="loginform">
       <label for="Username">
-        Username
+        Username:
       </label>
       <input type="text" id="Username" required>
       <br>
       <label for="Password">
-        Login
+        Login:
       </label>
       <input type="text" id="Password" required>
       <br>
       <input type="submit">
-    </form>
-  </main>
+  </form>
 
+  <nav>
+    <ul>
+    <li>About Us</li>
+    <li>Our Services</li>
+    <li>Contact Us</li>
+
+    </ul>
+  
+  </nav>
+
+  <section class="section">
+       <div>BOX1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsum officia maxime maiores! Eligendi ipsum fuga voluptas unde cum laudantium veniam est, possimus mollitia. Tenetur reprehenderit est placeat fugiat saepe!</div>
+       <div>BOX2 Lorem ipsum dolor sit amet consectetur adipisicing elit. In illum repellat iste nulla illo. Nemo tenetur facere temporibus dolorem consequatur cum! Beatae amet eveniet necessitatibus est ut, perspiciatis ex praesentium.</div>
+       <div>BOX3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, provident obcaecati quasi dicta ipsa omnis doloremque ipsum inventore tempora fugit incidunt temporibus autem veritatis laboriosam. Maiores adipisci providen</div>
+  </section>
+</main>
+
+<iframe src="/HTML FILES/Home.html" name="iframe_a" title="facebook"></iframe>
+
+
+<p><a href="/HTML FILES/BankInformation.html" target="iframe_a" title="bankinfoattack">BankInfo</a></p>
   <footer>
-       &
+       &copy; Jotham Den M. Baquiran
   </footer>
 
+
+  <p id="text">Welcome</p>
+  <button onclick="changetext()"> click to change</button>
+  <script>
+    let text = document.getElementById("text");
+    function changetext() {
+      text.innerHTML = "Hi jotham"
+    }
+  </script>
 </body>
 </html>

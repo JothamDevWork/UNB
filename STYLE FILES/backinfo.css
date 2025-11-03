@@ -1,0 +1,36 @@
+table, th, td{
+  margin: 100px 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+table{
+  border: 2px black;
+  border-style: outset;
+}
+
+ td{
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+th{
+  background-color:green;
+  border-radius: 10px;
+}
+
+body{
+  margin: 0;
+}
+#Navbar{
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(140,140,140);
+  margin: 0;
+}
+
+#Navbar li{
+  list-style-type: none;
+
+  padding: 10px;
+}

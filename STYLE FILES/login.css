@@ -1,0 +1,32 @@
+#loginform{
+ 
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.section div{
+   width: 30%;
+   height: 20%;
+
+   float: left;
+   margin: 10px;
+ 
+}
+body{
+  margin: 0;
+}
+nav ul{
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  background-color: rgb(140, 140, 140);
+}
+
+nav li{
+  list-style: none;
+  padding: 10px;
+
+}
+
