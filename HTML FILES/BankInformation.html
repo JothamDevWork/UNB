@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/IMAGES/UNION.jpg">
   <title>Bank Info</title>
+
+  <script>
+   
+   function  IsComputer(){
+    alert("You clicked the computer");
+   }
+
+   function IsCoffee(){
+    alert("You clicked the coffee");
+   }
+    
+   function IsPhone(){
+    alert("You clicked the coffee");
+   }
+  </script>
 </head>
 <body>
   <header>
@@ -17,10 +32,23 @@
   <pre>
     Bank balance: 10000;
   </pre>
+
+
   <footer>
    &copy; Jotham Den M.
    <br>
    <strong>All Rights Reserved</strong>
   </footer>
+
+<img src="/IMAGES/workplace (1).jpg"  usemap="#Workplace">
+
+<map name="Workplace">
+<area shape="rect" coords="34,44,270,350" title="this is computer" onclick="IsComputer()" title="this is compiter">
+<area shape="circle" coords="337, 300, 44" title="this is coffee" onclick="IsCoffee()" title="this is coffee">
+<area shape="rect" coords="290,172,333,250" title="this is phone" onclick="IsPhone()">
+
+</map>
+
+
 </body>
 </html>
